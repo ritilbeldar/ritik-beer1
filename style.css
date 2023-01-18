@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700&family=Pacifico&display=swap');
+    *{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+.beer-bg{
+    background: url(https://giffiles.alphacoders.com/119/11986.gif);
+    width: 100%;
+    height: 46.4vmax;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    background-attachment: fixed;
+}
+.beer-bg-ul{
+    display: flex;
+    align-items: center;
+    padding: 0 3% 0 8%;
+    justify-content: space-between;
+}
+.beer-bg-ul h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.779);
+}
+.beer-bg-ul ul{
+    justify-content: space-between;
+    width: 32vmax;
+    z-index: 1;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+.beer-bg-ul a{
+    text-decoration: none;
+    color: wheat;
+    margin-right: 10%;
+    font-weight: 600;
+    font-size: 17px;
+    transition: .25s;
+}
+.beer-bg-ul a:hover{
+    color: white;
+}
+.beer-bg-ul li{
+    transition: .25s;
+}
+.beer-bg-ul li:hover{
+    transform: translate(0,-5px)
+
+}
+#wight{
+    color: white;
+}
+.bg-color{
+    width: 100%;
+    height: 46.4vmax;
+    background-color: rgba(0, 0, 0, 0.358);
+    position: absolute;
+    top: 0;
+}
+#button{
+    background-color: rgba(255, 255, 255, 0.813);
+    padding: 10px 22px;
+    border-radius: 15px;
+    font-weight: 600;
+    color:  rgba(0, 0, 0, 0.986);
+    transition: 1s;
+}
+#button:hover{
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    transform: translate(0,8px);
+}
+.beer-bg img{
+    margin-left: 30%;
+}
+.brends{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-family: 'Dosis', sans-serif;
+}
+.brends h2{
+    letter-spacing: 3px;
+}
+.brends h1{
+    font-size: 80px;
+}
+.lan1{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    margin-top: 8%;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+.all h2{
+    font-size: 40px;
+    margin-top: 3%;
+}
+.all img{
+    height: 700px;
+    cursor: pointer;
+    transition: .35s;
+    opacity: 5;
+}
+.all1{
+    overflow: hidden;
+}
+.all img:hover{
+    transform: scale(1.1)
+}
+.king h2{
+    margin-top: 4%;
+}
+.lan2{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 5%;
+}
+.lan2 img{
+    height: 485px;
+    transition: .35s;
+    cursor: pointer;
+}
+.all2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all2 h2{
+    font-size: 30px;
+    margin-top: 7%;
+    color: white;
+}
+.Tuborg h2{
+    margin-top: 8.5%;
+}
+.all22{
+    overflow: hidden;
+    
+}
+.all22 img:hover{
+    transform: scale(1.1);
+}
+.lan3-black{
+    height: 86vmax;
+    width: 100%;
+    background-color: black; 
+    z-index: -1;
+    position: absolute;
+    top: 290%;
+}
+.lan3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6%;
+    gap: 4%;
+}
+.all3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.all3 img{
+    height: 465px;
+    transition: .35s;
+    cursor: pointer;
+    transition: .35s;
+}
+.all3 h2{
+    color: white;
+    font-size: 30px;
+    margin-top: 5%;
+}
+.Hayward{
+    margin-top: -3.8%;
+}
+.Hayward h2{
+    margin-top: 12%;
+}
+.bira h2{
+    font-size: 60px;
+}
+.all33{
+    overflow: hidden;
+}
+.all33 img:hover{
+    transform: scale(1.1);
+}
+.save-water h1{
+    color:  #0094e99b;
+    display: flex;
+    margin-left: 11%;
+    margin-top: 2%;
+    font-size: 80px;
+    text-transform: uppercase;
+    /* font-family: 'Pacifico', cursive; */
+}
+#water1{
+    color: #85ffbe96;
+    margin-top: -1%;
+    margin-left: 49%;
+}
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    height: 40.4vmax;
+}
+.video video{
+    height: 620px;
+}
+.video-color{
+    height: 21.8vmax;
+    width: 100%;
+    background-color: black;
+    margin-top: -22%;
+}
+.last{
+    width: 100%;
+    height: 30vmax;
+    background-color: black;
+    color: white;
+    border-top: 1px solid black;
+}
+.last h1{
+    color: white;
+}
+.last-uper{
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    margin-top: 5%;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.last-uper h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.779);
+}
+.conect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3%;
+}
+.sosial{
+    margin-top: 10%;
+}
+.sosial i{
+    font-size: 28px;
+    transition: .25s;
+}
+.sosial i:hover{
+    color: red;
+    cursor: pointer;
+}
+.email{
+    margin-top: 2%;
+    display: flex;
+    align-items: ;
+    justify-content: center;
+}
+.email input{
+    height: 3.5vmax;
+    width: 20vmax;
+    padding: 0 0 0 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    border-right: none;
+}
+.email input::placeholder{
+    color: white;
+}
+.email button{
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.658);
+    transition: .25s;
+    margin-left: 1%;
+    border-radius: 30px;
+}
+.email button:hover{
+    background-color: white;
+}
+.copy{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.copy h5{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+span{
+    font-size: 22px;
+    color: wheat;
+    margin-left: 2px;
+}
